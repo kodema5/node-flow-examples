@@ -1,0 +1,14 @@
+
+version: '3.6'
+services:
+
+  # setup pg1
+  pg1:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: rei
+
+  # use depends_on: - "pg1" when connecting other services
