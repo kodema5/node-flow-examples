@@ -1,5 +1,6 @@
 # node-flow-examples
 
+STATUS - EXPERIMENTAL
 
 * install [node-flow](https://github.com/kodema5/node-flow)
 * use ```docker-compose up/down``` to setup the services
