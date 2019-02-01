@@ -8,6 +8,7 @@ STATUS - EXPERIMENTAL
 
 # examples
 
+to run, ```node-flow -l lib -f [filename.md]```
 
 * [simple-web-service.md](simple-web-service.md)
 
@@ -15,8 +16,10 @@ STATUS - EXPERIMENTAL
     calls pg stored procedure,
     and using fetch to simulate http-calls.
 
-
 * [socket-io.md](socket-io.md)
 
     shows use of socket.io server and client for a real-time communication
 
+* [pooled-forks.md](pooled-forks.md)
+
+    pools a set of forked node-modules to execute parallel calculations
