@@ -23,3 +23,7 @@ to run, ```node-flow -l lib -f [filename.md]```
 * [pooled-forks.md](pooled-forks.md)
 
     pools a set of forked node-modules to execute parallel calculations
+
+* [ip-camera-snapshot.md](ip-camera-snapshot.md)
+
+    a web url that retrieves snapshot from a foscam ip-camera
