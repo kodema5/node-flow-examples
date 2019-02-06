@@ -8,10 +8,10 @@ to separate extensive computations in node-js file from main event-loop.
 fork a node-module. it communicates with process.on('message',..) and process.send
 
 ```
-> lib://?name=Fork
-> fn1://Fork.fork_?file=pooled-forks.js&args=100
-> fn2://Fork.fork_?file=pooled-forks.js&args=200
-> fn3://Fork.fork_?file=pooled-forks.js&args=300
+> lib://?name=ChildProcess
+> fn1://ChildProcess.fork_?file=pooled-forks.js&args=100
+> fn2://ChildProcess.fork_?file=pooled-forks.js&args=200
+> fn3://ChildProcess.fork_?file=pooled-forks.js&args=300
 ```
 3 fork functions are created that can be called as usual
 

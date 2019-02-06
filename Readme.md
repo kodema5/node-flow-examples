@@ -27,3 +27,7 @@ to run, ```node-flow -l lib -f [filename.md]```
 * [ip-camera-snapshot.md](ip-camera-snapshot.md)
 
     a web url that retrieves snapshot from a foscam ip-camera
+
+* [multi-pg-dockers](multi-pg-dockers.md)
+
+    creates multiple instances of postgres-docker, and execute external programs to access and terminate them
